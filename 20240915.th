@@ -1,0 +1,103 @@
+encoding utf-8
+# 2024.09.15 created by TopoDroid v 6.2.85
+
+survey 20240915 -title "Buco cattivo"
+    # Ingresso Fiorini fino sala Merloni 
+
+  centerline
+    cs long-lat
+    # fix ingresso 12.969628 43.392236 499 # 27.2 33.6
+    date 2024.09.16 
+    # team Matteo Piccinini, Mirco Molinari, Paola Fioretti 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend left
+    0 1 8.12 228.5 3.7
+    extend right
+    1 2 3.54 293.8 -2.5
+    2 3 3.50 292.6 43.4
+    extend left
+    3 4 5.72 205.3 0.8
+    4 5 6.10 166.1 -32.5
+    5 6 12.24 253.8 1.6
+    6 7 8.12 247.7 4.7
+    7 8 15.68 247.5 9.0
+    extend right
+    8 9 9.70 27.5 1.6
+    extend left
+    9 10 2.68 254.6 36.2
+    10 11 14.48 220.0 41.4
+    11 12 2.92 171.1 -20.7
+    12 13 8.61 170.0 12.5
+    13 14 5.70 230.7 29.5
+    14 15 8.06 125.2 -3.3
+    15 16 4.08 186.4 3.7
+    16 17 9.02 140.6 -3.5
+    17 18 8.17 151.9 -33.0
+    18 19 7.72 145.1 -28.9
+    19 20 3.16 257.1 -16.9
+    20 21 4.62 131.3 -40.0
+    extend right
+    21 23 6.68 70.5 -72.2
+    extend left
+    23 24 23.74 124.7 -69.4
+    24 25 9.46 182.1 -0.3
+    25 26 17.07 159.4 -1.8
+    26 27 4.99 155.9 -1.2
+    27 28 4.77 172.0 8.1
+    28 29 10.79 185.3 -9.1
+    29 30 1.48 172.8 62.6
+    30 31 8.74 200.8 -47.3
+    31 32 12.22 215.1 -52.7
+    32 33 1.51 201.7 -19.4
+    extend right
+    33 34 3.28 336.5 -38.3
+    extend left
+    34 35 6.28 203.3 -35.9
+    extend right
+    35 36 7.27 307.5 -56.8
+    extend left
+    36 37 3.33 185.7 -27.8
+    37 38 5.10 218.2 -42.9
+    38 39 2.14 248.5 -52.7
+    39 40 5.09 204.4 -32.1
+    40 41 3.55 209.2 -41.1
+    41 42 4.84 199.3 -38.5
+    42 43 1.77 161.9 28.0
+    43 44 9.35 184.9 5.3
+    44 45 6.13 165.3 -2.2
+    45 46 3.67 203.7 -27.0
+    46 47 4.09 191.7 -37.5
+    47 48 3.27 192.9 -32.4
+    48 49 2.40 153.9 -18.4
+    49 50 1.98 163.9 -20.9
+    50 51 5.96 157.2 -20.8
+    51 52 4.68 194.6 -15.0
+    extend vertical
+    52 53 1.53 261.1 65.3
+    extend left
+    53 54 4.56 170.2 -13.2
+    extend right
+    54 55 8.64 309.7 -11.3
+    extend left
+    55 56 1.54 233.8 -48.2
+    extend right
+    56 57 8.18 280.8 -0.8
+    57 58 2.01 323.4 4.1
+    extend left
+    58 59 5.01 226.3 14.8
+    59 60 8.62 182.5 7.8
+  endcenterline
+
+  # input "Buco_cattivo-1p.th2"
+  # input "Buco_cattivo-1s.th2"
+
+  #map m1p -projection plan
+  #  Buco_cattivo-1p
+  #endmap
+  #map m1s -projection extended
+  #   Buco_cattivo-1s
+  #endmap
+
+endsurvey

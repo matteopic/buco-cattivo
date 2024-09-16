@@ -1,0 +1,16 @@
+encoding  utf-8
+
+input "entrances.th"
+
+input "20240915.th"
+equate 21MAAN 0@20240915
+
+# SURFACE #
+input "surface.th"
+
+# Surveys scraps JOIN
+
+map polygon.map -projection plan
+  # Survey name list
+  20240915
+endmap  

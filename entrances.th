@@ -1,0 +1,6 @@
+encoding utf-8
+  centreline
+    station 21MAAN "Buco Cattivo" entrance
+    cs UTM33
+    fix 21MAAN 335562.307 4806375.454 498
+  endcentreline

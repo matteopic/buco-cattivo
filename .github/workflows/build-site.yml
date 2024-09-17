@@ -6,9 +6,9 @@ name: Build minimal website
 on:
   # Triggers the workflow on push or pull request events but only for the "master" branch
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -38,7 +38,7 @@ jobs:
           thconfig: 'project.thconfig'
 
       - name: Retrieve CaveView.js
-        uses: robinraju/release-downloader@v1.8
+        uses: robinraju/release-downloader@v1.11
         with:
           repository: "aardgoose/CaveView.js"
           latest: true
@@ -51,11 +51,11 @@ jobs:
           rm -f CaveView.zip
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3.0.1
         with:
           # Upload 'out' directory
           path: 'out'
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4

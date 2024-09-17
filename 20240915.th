@@ -14,7 +14,7 @@ survey 20240915 -title "Buco cattivo"
     data normal from to length compass clino
     extend left
     0 1 8.12 228.5 3.7
-    extend right
+    extend left
     1 2 3.54 293.8 -2.5
     2 3 3.50 292.6 43.4
     extend left
